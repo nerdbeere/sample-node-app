@@ -11,8 +11,8 @@ nconf.file({ file: './dev-config.json' });
 
 router.get('/', function(req, res, next) {
   res.render('index', {
-    title: nconf.get('title'),
-    message: nconf.get('message')
+    title: 'Magic',
+    message: 'This is fucking magic'
   });
 });
 
