@@ -49,6 +49,7 @@ do_install() {
     routes \
     views \
     package.json \
+    dev-config.json \
     app.js \
     index.js \
     $app_path
